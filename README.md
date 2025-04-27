@@ -13,9 +13,9 @@ A modern, multilingual BMI (Body Mass Index) calculator web app with PDF export 
 
 ## Screenshots
 
-| Main Screen                        | Result Example                     | Dark Mode                          |
+| Main Screen                        | Report Example                     | Dark Mode                          |
 | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-| ![Screenshot 1](/1.png) | ![Screenshot 2](/2.png) | ![Screenshot 3](/3.png) |
+| ![Screenshot 1](/1.png) | ![Screenshot 2](/3.png) | ![Screenshot 3](/2.png) |
 
 ## Getting Started
 
