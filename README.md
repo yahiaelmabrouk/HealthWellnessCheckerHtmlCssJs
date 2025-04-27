@@ -22,7 +22,7 @@ A modern, multilingual BMI (Body Mass Index) calculator web app with PDF export 
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/bmi-calculator.git
+   git clone https://github.com/yahiaelmabrouk/HealthWellnessCheckerHtmlCssJs.git
    cd bmi-calculator
    ```
 
