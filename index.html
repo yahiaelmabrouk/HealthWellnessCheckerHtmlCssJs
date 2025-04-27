@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2 id="title">BMI Calculator</h2>
+        <div class="controls">
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="ar">العربية</option>
+          </select>
+          <button id="dark-mode-toggle" aria-label="Toggle dark mode">
+            🌙
+          </button>
+        </div>
+      </header>
+      <form id="bmi-form">
+        <div class="input-group">
+          <label>
+            <span id="weight-label">Weight</span>
+            <input
+              type="number"
+              id="weight"
+              min="1"
+              step="any"
+              required
+              placeholder="kg"
+            />
+          </label>
+          <label>
+            <span id="height-label">Height</span>
+            <input
+              type="number"
+              id="height"
+              min="1"
+              step="any"
+              required
+              placeholder="cm"
+            />
+          </label>
+        </div>
+        <div class="unit-group">
+          <label>
+            <input type="radio" name="unit" value="metric" checked />
+            <span id="metric-label">Metric (kg/cm)</span>
+          </label>
+          <label>
+            <input type="radio" name="unit" value="imperial" />
+            <span id="imperial-label">Imperial (lbs/in)</span>
+          </label>
+        </div>
+        <button type="submit" id="calculate-btn">Calculate</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <footer>
+      <span role="img" aria-label="heart">💙</span>
+      <span id="footer-text">Stay healthy with Health & Wellness</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/3.0.1/jspdf.umd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
